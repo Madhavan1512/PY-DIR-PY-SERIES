@@ -1,9 +1,6 @@
-def remote_control_next():
-    yield "cnn"
-    yield "espn"
-itr = remote_control_next()
-print(itr)
-print(next(itr))
-print(next(itr))
+def sum(a,b):
+    return a+b
 
-
+n1=int(input('enter first number: '))
+n2=int(input('enter first number: '))
+print('sum is: ',sum(n1,n2))
