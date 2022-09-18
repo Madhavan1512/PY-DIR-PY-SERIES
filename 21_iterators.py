@@ -1,3 +1,4 @@
+
 class RemoteControl():
     def __init__(self):
         self.channels = ["HBO","cnn","abc","espn"]
@@ -13,6 +14,7 @@ class RemoteControl():
 
         return self.channels[self.index]
 
+print(list)
 r = RemoteControl()
 itr=iter(r)
 print(next(itr))
